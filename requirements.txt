@@ -1,0 +1,7 @@
+PyQt5==5.15.11
+crewai==0.140.0
+litellm==1.72.6
+markdown==3.7
+pandas==2.3.0
+plotly==6.2.0
+pydantic==2.11.1
