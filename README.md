@@ -175,7 +175,7 @@ The `demo/` folder contains comprehensive demonstration materials:
 
 ### 📹 Video Demonstration
 ### Videos
-- <video src="./demo/demo.mp4" controls width="720"></video>
+- <video src="./demo/demo.mp4" controls width="720"> </video>
 
 
 ### Images
@@ -183,7 +183,6 @@ The `demo/` folder contains comprehensive demonstration materials:
 - `demo2.png` - ![Demo 2](./demo/demo2.png)
 - `demo3.png` - ![Demo 3](./demo/demo3.png)
 - `demo4.png` - ![Demo 4](./demo/demo4.png)
-- `demo5.png` - ![Demo 5](./demo/demo5.png)
 
 
 ## ⚡ Performance
