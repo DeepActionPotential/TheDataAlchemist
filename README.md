@@ -56,7 +56,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DeepActionPotential/TheDataAlchemist
    cd TheDataAlchemist
    ```
 
@@ -294,6 +294,3 @@ For support and questions:
 3. Examine the sample `Titanic data report.html` for reference
 4. Search existing GitHub issues for similar problems
 
----
-
-**Made with ❤️ by AI-powered data scientists**
