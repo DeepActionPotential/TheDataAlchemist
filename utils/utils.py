@@ -21,7 +21,7 @@ def create_dataframe_info(file_path: str, include_full_df: bool = True) -> DataF
     and optional raw data for downstream analysis or storytelling.
 
     The generated metadata includes:
-        - Overall dataset shape (number of rows and columns)
+        - Overall dataset shape (number of rows and columns) 
         - List of column names
         - Data types for each column
         - Count of missing values per column
