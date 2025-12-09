@@ -4,7 +4,6 @@ from schemas.schemas import AllCodesWithInsights
 from config import LLMConfig, ReportConfig
 
 
-
 class DatasetAnalyzer:
     """
     Handles the process of converting a CSV dataset into a structured analysis report.
