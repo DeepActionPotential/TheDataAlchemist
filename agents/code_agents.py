@@ -1,6 +1,6 @@
 
 from crewai import Agent
-
+ 
 
 class AnalysisDataRecommenderAgent:
     """
