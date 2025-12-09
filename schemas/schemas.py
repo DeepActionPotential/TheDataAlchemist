@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any, Union, Tuple
 
 
-
+# Schemas
 
 class CSVFilePath(BaseModel):    
     file_path: str = Field(..., description="Path to the CSV file to be read into a DataFrame.")
