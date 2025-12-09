@@ -9,7 +9,7 @@ from PyQt5.QtGui import QFont, QPalette, QColor, QIcon, QPixmap, QPainter
 from PyQt5.QtCore import QLocale
 from PyQt5.QtCore import QLocale, Qt
 
-
+ 
 # Worker thread to prevent UI freezing
 class ConversionThread(QThread):
     progress_updated = pyqtSignal(int)
