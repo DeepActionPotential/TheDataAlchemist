@@ -9,7 +9,7 @@ from services.report_manager import ReportFileCreator
 from core.dataset_manager import DatasetAnalyzer
 from config import LLMConfig, ReportConfig
 from crewai import LLM
-from ui.main_ui import UI
+from ui.main_ui import UI 
 
 def main():
     # Initialize LLM and configuration
