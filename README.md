@@ -281,16 +281,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-For support and questions:
-
-- 📧 **Email**: support@thedataalchemist.com
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/TheDataAlchemist/discussions)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/TheDataAlchemist/issues)
-- 📖 **Documentation**: [Wiki](https://github.com/yourusername/TheDataAlchemist/wiki)
 
 ### Getting Help
 1. Check the troubleshooting section above
 2. Review demo materials in the `demo/` folder
 3. Examine the sample `Titanic data report.html` for reference
-4. Search existing GitHub issues for similar problems
+4. Search existing GitHub issues for similar problem
 
