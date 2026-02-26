@@ -1,4 +1,4 @@
-# TheDataAlchemist 🧙‍♂️
+# TheDataAlchemist 
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +8,7 @@
 
 **TheDataAlchemist** is an intelligent, AI-powered desktop application that transforms raw CSV datasets into comprehensive, publication-ready analytical reports. Leveraging advanced multi-agent AI systems, it automates the entire data analysis pipeline from ingestion to insight generation.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
@@ -23,9 +23,9 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🚀 Features
+##  Features
 
-### 🤖 Multi-Agent AI Architecture
+###  Multi-Agent AI Architecture
 - **Reading Agent**: Intelligently analyzes CSV structure and data characteristics
 - **Code Generation Agents**: Creates Plotly visualizations at multiple complexity levels:
   - Simple Analysis (basic charts and distributions)
@@ -33,19 +33,19 @@
   - Advanced Analysis (complex statistical visualizations)
 - **Insights Agent**: Transforms visualizations into compelling narrative stories
 
-### 📊 Automated Analysis Pipeline
+###  Automated Analysis Pipeline
 - **Intelligent Data Profiling**: Automatically detects column types, distributions, and relationships
 - **Dynamic Visualization Generation**: Creates contextually appropriate charts and graphs
 - **Narrative Insight Generation**: Converts technical visualizations into business-friendly stories
 - **Multi-format Export**: Generates professional HTML reports with interactive visualizations
 
-### 🎨 Professional Report Generation
+###  Professional Report Generation
 - **Light & Dark Themes**: Choose between elegant light and modern dark report themes
 - **Responsive Design**: Reports adapt to different screen sizes
 - **Interactive Visualizations**: Embedded Plotly charts for data exploration
 - **Structured Layout**: Clean, publication-ready formatting
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -79,7 +79,7 @@
 
 
 
-## 📖 Usage
+##  Usage
 
 ### Basic Workflow
 
@@ -110,7 +110,7 @@ The application uses Google Gemini 2.0 Flash by default. Quality and rate limits
 
 > **Important**: Report quality and analysis depth heavily depend on your Gemini API tier. Free tier may produce basic insights, while paid tiers enable more sophisticated analysis and better narrative generation.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -135,45 +135,45 @@ The application uses Google Gemini 2.0 Flash by default. Quality and rate limits
 - **Data Processing**: Pandas (Data manipulation)
 - **Report Generation**: HTML/CSS with embedded Plotly
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 TheDataAlchemist/
-├── 📄 app.py                 # Main application entry point
-├── ⚙️ config.py              # API keys and configuration
-├── 📦 requirements.txt       # Python dependencies
-├── 🧠 agents/                # AI agent implementations
+├──  app.py                 # Main application entry point
+├──  config.py              # API keys and configuration
+├──  requirements.txt       # Python dependencies
+├──  agents/                # AI agent implementations
 │   ├── reading_agents.py     # Data reading and profiling
 │   ├── code_agents.py        # Visualization code generation
 │   └── insights_agents.py    # Narrative insight creation
-├── 🔧 core/                  # Core business logic
+├──  core/                  # Core business logic
 │   └── dataset_manager.py    # Main analysis orchestrator
-├── 🔗 services/              # Business services
+├──  services/              # Business services
 │   ├── csv_analyses.py       # Dataset analysis coordination
 │   └── report_manager.py     # Report generation
-├── 🖥️ ui/                    # User interface
+├──  ui/                    # User interface
 │   └── main_ui.py            # PyQt5 GUI implementation
-├── 🛠️ utils/                 # Utility functions
+├──  utils/                 # Utility functions
 │   └── utils.py              # Helper functions
-├── 📄 templates/             # HTML report templates
+├──  templates/             # HTML report templates
 │   ├── report_light_theme.html
 │   ├── report_dark_theme.html
 │   └── page_block.html
-├── 🎬 demo/                  # Demo materials
+├──  demo/                  # Demo materials
 │   ├── demo.mp4             # Video demonstration (6.6MB)
 │   ├── demo1.png           # Screenshot 1: Main interface (1.1MB)
 │   ├── demo2.png           # Screenshot 2: Analysis in progress (100KB)
 │   ├── demo3.png           # Screenshot 3: Report preview (60KB)
 │   ├── demo4.png           # Screenshot 4: Sample visualization (59KB)
 │   └── demo5.png           # Screenshot 5: Final report (89KB)
-└── 📊 data.csv              # Sample dataset for testing
+└──  data.csv              # Sample dataset for testing
 ```
 
-## 🎬 Demo Materials
+##  Demo Materials
 
 The `demo/` folder contains comprehensive demonstration materials:
 
-### 📹 Video Demonstration
+###  Video Demonstration
 ### Videos
 - <video src="./demo/demo.mp4" controls width="720"> </video>
 
@@ -185,7 +185,7 @@ The `demo/` folder contains comprehensive demonstration materials:
 - `demo4.png` - ![Demo 4](./demo/demo4.png)
 
 
-## ⚡ Performance
+##  Performance
 
 ### Analysis Speed Factors
 - **Dataset Size**: Larger files take longer to process (typical: 10-300 seconds)
@@ -203,7 +203,7 @@ The `demo/` folder contains comprehensive demonstration materials:
 - Close other applications during large dataset processing
 - Consider upgrading to Gemini paid tier for faster analysis
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 ### Data Protection
 - **Local Processing**: All analysis happens on your local machine
@@ -217,7 +217,7 @@ The `demo/` folder contains comprehensive demonstration materials:
 - Regularly update dependencies for security patches
 - Validate input CSV files for malicious content
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -247,7 +247,7 @@ pip install onnxruntime==1.16.3
 - Process datasets in smaller chunks
 - Use sampling for exploratory analysis
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how to get involved:
 
@@ -267,11 +267,11 @@ We welcome contributions! Here's how to get involved:
 - Update README for significant changes
 - Test changes thoroughly before submitting
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CrewAI Team** - For the excellent multi-agent framework
 - **Google AI** - For the Gemini API powering our analysis
